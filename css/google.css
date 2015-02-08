@@ -1,0 +1,132 @@
+body {
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(15, 15, 15, 1);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+#TopMenu {
+	
+	height: 30px;
+	width: 350px;
+	margin: 0;
+	padding:0;
+	position: relative;
+	text-align: right;
+	left:74%;
+	font-size: 13px;
+}
+
+#Logo {
+	position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -150px;
+}
+
+
+
+#SearchArea {
+	
+	position:absolute;
+    left:30%;
+    top:65%;
+    margin:-100px 0 0 -10px;
+   
+}
+
+form input[type="text"] {
+	width: 520px;
+	height: 25px;
+	border: 2px solid #E8ECED;
+	
+	}
+
+#Button {
+	text-align: center;
+	word-spacing: 10px;
+	margin-top: -5px;
+}
+
+
+.SubmitButton
+{
+	border:	1px solid #a3ceda;
+	height: 27px;	
+	font-size: 8pt !important;
+	background-color: rbga(245 245 245 1);
+	font-family: Arial;
+	color: black;
+
+}
+
+
+#TopMenu li {
+	padding: 0;
+	margin-right: 15px;
+	display: inline;
+	vertical-align: middle;
+	position: relative;
+}
+
+li span {
+	height:27px;
+	width: 65px;
+	border-radius: 2px;
+	border: grey 2px solid;
+	background-color: rgba(66, 133, 244, 1);
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 27px;
+	
+}
+
+
+#BottomMenu li {
+	display: inline;
+	
+}
+
+#BottomMenu a {
+	color: rgb(102,102,102);
+}
+
+#left {
+	background: rgba(242, 242, 242, 1);
+	margin-left:-10px;
+	position: fixed;
+	float: left;
+	width:25%;
+	font-size: 13.3px;
+	word-spacing: 20px;
+	bottom:0;
+	
+}
+
+
+
+#right {
+	font-size: 13.3px;
+	background: rgba(242, 242, 242, 1);
+	float: left;
+	width:75%;
+	margin-left: 300px;
+	padding-right: 116px;
+	text-align: right;
+	word-spacing: 20px;
+	position: fixed;
+	bottom: 0;
+	
+}
